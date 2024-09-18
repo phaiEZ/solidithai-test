@@ -190,11 +190,11 @@ const Dashboard = () => {
                 </button>
             </div>
 
-            <div className="px-16">
+            <div className="px-16 pb-16">
                 <h2 className="text-4xl font-bold mb-16 text-white text-center mt-16">
                     Dashboard
                 </h2>
-                <p className="text-lg mb-6 text-[#d9d9d9]">
+                <p className="text-lg mb-6 text-white">
                     Welcome, User! We’re glad to have you here. This is the Dashboard page
                     that allows you to search and filter data in the table.
                 </p>
@@ -205,7 +205,7 @@ const Dashboard = () => {
                             placeholder="Search By Name"
                             value={searchText}
                             onChange={handleSearch}
-                            className="p-2 bg-[#2F2F2F] text-[#d9d9d9] rounded w-full"
+                            className="p-2 bg-[#2F2F2F] text-white rounded w-full"
                         />
                     </div>
 
