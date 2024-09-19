@@ -295,7 +295,9 @@ const Dashboard = () => {
                                 src={selectedEntry.profilePic}></img>
                         </div>
 
-                        <h3 className="text-xl font-bold mb-2">{selectedEntry.name}</h3>
+                        <h3 className="text-2xl font-bold mb-2 text-center border-b pb-4 ">{selectedEntry.name}</h3>
+
+
                         <p>
                             <strong>Roles:</strong> {selectedEntry.roles.join(", ")}
                         </p>
